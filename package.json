@@ -1,0 +1,23 @@
+{
+  "name": "es4x-graph-grpc",
+  "version": "1.0.0",
+  "description": "vertx grpc graphql demo",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "es4x install -v grpc/hello/target/myapp-0.0.1-SNAPSHOT.jar",
+    "test": "es4x test index.test.js",
+    "start": "es4x"
+  },
+  "dependencies": {
+    "@vertx/core": "^3.8.3",
+    "@vertx/web-graphql": "^3.8.3"
+  },
+  "devDependencies": {
+    "es4x-pm": "^0.9.5"
+  },
+  "mvnDependencies": [
+    "io.vertx:vertx-grpc:3.8.3"
+  ],
+  "author": "",
+  "license": "ISC"
+}
